@@ -1,0 +1,10 @@
+node_modules/
+work/
+fixtures/
+test_samples/
+evidence/
+poster/
+__pycache__/
+*.py[cod]
+*.tgz
+.DS_Store

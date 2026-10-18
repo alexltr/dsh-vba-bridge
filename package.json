@@ -1,0 +1,64 @@
+{
+  "name": "dsh-vba-bridge",
+  "version": "0.1.0",
+  "description": "Read, edit and verify Excel VBA projects — modules, UserForms, export and procedure lists — through Excel COM, exposed as DSH tools.",
+  "license": "MIT",
+  "author": "alex (https://github.com/alexltr)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexltr/dsh-vba-bridge.git"
+  },
+  "homepage": "https://github.com/alexltr/dsh-vba-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/alexltr/dsh-vba-bridge/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "excel",
+    "vba",
+    "macro",
+    "xlsm",
+    "xlam",
+    "office",
+    "com"
+  ],
+  "type": "module",
+  "engines": {
+    "node": "^22.19 || >=24",
+    "dsh": ">=0.2.0-0 <0.3.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "bridge/vba_bridge.py",
+    "vendor/**",
+    "docs/screenshot.png",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "prepack": "node scripts/clean-pyc.mjs",
+    "test": "node --test tests/unit.test.mjs",
+    "test:py": "python -m unittest discover -s tests -p \"test_*.py\""
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

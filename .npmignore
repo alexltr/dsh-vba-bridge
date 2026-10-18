@@ -1,0 +1,11 @@
+**/__pycache__/**
+**/*.pyc
+**/*.pyo
+work/**
+fixtures/**
+evidence/**
+poster/**
+docs/**
+poc_*.py
+probe_*.py
+test_local.mjs

@@ -1,0 +1,7 @@
+- insert:
+    - id: vba-bridge
+      name: dsh-vba-bridge
+      config:
+        pythonPath: ''
+        timeoutMs: 240000
+        allowWrite: true
