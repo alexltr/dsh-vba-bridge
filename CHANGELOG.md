@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 (2026-10-19)
+
+- Use an absolute GitHub raw URL for the README screenshot so it renders on
+  the npm package page.
+
 ## 0.1.0 (2026-10-18)
 
 First public release.

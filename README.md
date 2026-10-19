@@ -8,7 +8,7 @@ Windows · 桌面 Excel · DSH Host 插件 · MIT
 
 GitHub: <https://github.com/alexltr/dsh-vba-bridge>
 
-![VBA Bridge 讲解图](docs/screenshot.png)
+![VBA Bridge 讲解图](https://raw.githubusercontent.com/alexltr/dsh-vba-bridge/main/docs/screenshot.png)
 
 ## 工具
 

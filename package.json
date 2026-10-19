@@ -1,6 +1,6 @@
 {
   "name": "dsh-vba-bridge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read, edit and verify Excel VBA projects — modules, UserForms, export and procedure lists — through Excel COM, exposed as DSH tools.",
   "license": "MIT",
   "author": "alex (https://github.com/alexltr)",
